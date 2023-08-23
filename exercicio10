@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 10</title>
+</head>
+<body>
+    <script>
+        var pessoa1 = prompt("Digite o nome da primeira pessoa:");
+        var pessoa2 = prompt("Digite o nome da segunda pessoa:");
+        var peso1 = parseFloat(prompt("Digite o peso da primeira pessoa:"));
+        var peso2 = parseFloat(prompt("Digite o peso da segunda pessoa:"));
+
+        var pessoaMaisPesada = (peso1 > peso2) ? pessoa1 : pessoa2;
+
+        alert("A pessoa precisa fazer projetinho é: " + pessoaMaisPesada);
+
+    </script>
