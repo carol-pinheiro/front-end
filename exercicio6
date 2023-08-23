@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+</head>
+<body>
+    <script>
+        var num1 = parseFloat(prompt("Digite o primeiro número: "));
+        var num2 = parseFloat(prompt("Digite o segundo número: "));
+
+        var maior, menor;
+
+        if (num1 > num2) {
+            maior = num1;
+            menor = num2;
+        } else {
+            maior = num2;
+            menor = num1;
+        }
+
+        alert("O " + maior + " é maior e o " + menor + " é menor");
+    </script>
