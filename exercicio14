@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+</head>
+<body>
+    <script>
+        var nome;
+        var senha;
+
+        do {
+            nome = prompt("Digite seu nome :");
+            senha = prompt("Digite sua senha:");
+
+            if (senha === nome) {
+                alert("Senha inválida.");
+            }
+        } while (senha === nome);
+
+        alert("acesso permitido");
+    </script>
