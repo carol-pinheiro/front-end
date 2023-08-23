@@ -1,0 +1,14 @@
+      <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 12</title>
+</head>
+<body>
+    <script>
+        var num = parseFloat(prompt("Digite um número:"));
+
+        var mensagem = num % 3 === 0 ? "múltiplo de 3" : "Não é múltiplo de 3";
+        alert(mensagem);
+    </script>
