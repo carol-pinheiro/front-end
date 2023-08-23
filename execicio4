@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <script>
+        var num = parseFloat(prompt("Digite um número: "));
+
+        if (num > 20 && num < 90) {
+            alert("está entre 20 e 90");
+        } else {
+            alert(" não está entre 20 e 90");
+        }
+    </script>
